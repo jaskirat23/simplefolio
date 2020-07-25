@@ -30,10 +30,10 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'Robofriends',
-    info: '',
-    info2: '',
+    info: 'coming',
+    info2: 'soon',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -49,7 +49,7 @@ export const projectsData = [
     img: 'diabetes.png',
     title: 'Diabetes prediction',
     info: 'This is another web application developed using flask micro web framework.',
-    info2: 'It uses logistic regression to detect whether the person is siabetic or not based on the input provided by the user.',
+    info2: 'It uses logistic regression to detect whether the person is diabetic or not based on the input provided by the user.',
     url: 'https://diabetes-prediction23.herokuapp.com/',
     repo: 'https://github.com/jaskirat23/diabetes_prediction', // if no repo, the button will not show up
   },
