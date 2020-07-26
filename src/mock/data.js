@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: "Jaskirat |  Developer", // e.g: 'Name | Developer'
+  title: 'Jaskirat |  Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my profile', // e.g: Welcome to my website
 };
@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Jaskirat Singh',
-  subtitle: "I am a focusd devloper.",
+  subtitle: 'I am a focusd devloper.',
   cta: 'Want to know more about me?',
 };
 
@@ -40,8 +40,9 @@ export const projectsData = [
     img: 'apple.jpeg',
     title: 'Detection and classification of apple using deep learning',
     info: 'This a web application developed with the help of flask web framework.',
-    info2: 'It uses deep learning to detect and count the number of apples present ina video or an image.',
-    url: '',//If no repo I changed it
+    info2:
+      'It uses deep learning to detect and count the number of apples present ina video or an image.',
+    url: '', // If no repo I changed it
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -49,7 +50,8 @@ export const projectsData = [
     img: 'diabetes.png',
     title: 'Diabetes prediction',
     info: 'This is another web application developed using flask micro web framework.',
-    info2: 'It uses logistic regression to detect whether the person is diabetic or not based on the input provided by the user.',
+    info2:
+      'It uses logistic regression to detect whether the person is diabetic or not based on the input provided by the user.',
     url: 'https://diabetes-prediction23.herokuapp.com/',
     repo: 'https://github.com/jaskirat23/diabetes_prediction', // if no repo, the button will not show up
   },
@@ -90,5 +92,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
