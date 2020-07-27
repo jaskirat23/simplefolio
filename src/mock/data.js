@@ -28,12 +28,13 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'robo.png',
     title: 'Robofriends',
-    info: 'coming',
-    info2: 'soon',
-    url: '',
-    repo: '', // if no repo, the button will not show up
+    info: 'A web app created with readt and npm.',
+    info2:
+      'It fetches the data from a free server and get the robot images from another server. You can search for any robot it will show up!',
+    url: 'https://jaskirat23.github.io/robofriends/',
+    repo: 'https://github.com/jaskirat23/robofriends',
   },
   {
     id: nanoid(),
