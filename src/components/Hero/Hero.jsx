@@ -29,7 +29,6 @@ const Header = () => {
             {title || 'Hi, my name is'}{' '}
             <span className="text-color-main">{name || 'Jaskirat Singh'}</span>
             <br />
-            I am a focused Developer.
             {'I am a focused Developer.'}
           </h1>
         </Fade>
